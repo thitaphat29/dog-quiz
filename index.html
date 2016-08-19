@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<div class="container">
+		
+		<div class="show-score">
+			<h2>Your current score :<span class="score"></span></h2>
+		</div>
+
+		<div class="display">
+			<div class="intro">
+				<h1>Dog Quiz</h1>
+				<div class="begin">
+					<button>Get Started</button>
+				</div>
+			</div>
+
+			<form id="quiz">
+				<p><h3></h3></p>
+				<ul class="answer">
+					
+				</ul>
+				<button class="submit-answer">Submit</button>
+			</form>
+
+			<div class="final">
+				<h1>Your Quiz Results</h1>
+				<h2>You got <span class="final-score"></span> correct answer out of the <span class="total-score">10</span> questions</h2>
+				<button class="newgame">Play again</button>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
